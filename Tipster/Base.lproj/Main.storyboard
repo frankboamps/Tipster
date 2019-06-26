@@ -90,7 +90,13 @@
                             <outletCollection property="gestureRecognizers" destination="gwF-Vu-cio" appends="YES" id="cx3-P2-ZbA"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tips" id="jVh-tf-kFU"/>
+                    <navigationItem key="navigationItem" title="Tips" id="jVh-tf-kFU">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="5i7-9n-hHn">
+                            <connections>
+                                <segue destination="gT8-0m-KgU" kind="show" id="rGp-Ho-ksg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="mealBillField" destination="yiA-wD-MZZ" id="uky-Ob-kIL"/>
                         <outlet property="tipControl" destination="WFb-Dg-48L" id="IQt-oI-MAr"/>
@@ -108,19 +114,19 @@
             <point key="canvasLocation" x="992.79999999999995" y="27.436281859070466"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="cVV-kR-UhF">
+        <scene sceneID="kQm-vL-ysj">
             <objects>
-                <viewController id="Bex-Ht-Jc5" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Wvq-eA-rI8">
+                <viewController id="gT8-0m-KgU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R2s-cL-Btp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="sRv-V3-4Zo"/>
+                        <color key="backgroundColor" red="0.42341575322357738" green="1" blue="0.43001302723256674" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="ada-2B-Xre"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="D1G-4v-ffh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rbr-tK-hFS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1664.8" y="26.53673163418291"/>
+            <point key="canvasLocation" x="2148" y="27"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qg2-nm-eUj">
