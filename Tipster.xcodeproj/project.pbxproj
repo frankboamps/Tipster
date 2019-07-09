@@ -16,7 +16,7 @@
 		25ECAF8D22C2C1CD006394B9 /* TipsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ECAF8C22C2C1CD006394B9 /* TipsterTests.m */; };
 		25ECAF9822C2C1CD006394B9 /* TipsterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ECAF9722C2C1CD006394B9 /* TipsterUITests.m */; };
 		25ECAFA622C2F428006394B9 /* iconmonstr-calculator-4-240 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 25ECAFA522C2F428006394B9 /* iconmonstr-calculator-4-240 (1).png */; };
-		25ECAFA922C2F965006394B9 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ECAFA822C2F965006394B9 /* SettingsViewController.m */; };
+		25ECAFAC22C3DA36006394B9 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ECAFAB22C3DA36006394B9 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		25ECAF9722C2C1CD006394B9 /* TipsterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipsterUITests.m; sourceTree = "<group>"; };
 		25ECAF9922C2C1CD006394B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25ECAFA522C2F428006394B9 /* iconmonstr-calculator-4-240 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iconmonstr-calculator-4-240 (1).png"; path = "../../../../Downloads/iconmonstr-calculator-4-240 (1).png"; sourceTree = "<group>"; };
-		25ECAFA722C2F965006394B9 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
-		25ECAFA822C2F965006394B9 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		25ECAFAA22C3DA36006394B9 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		25ECAFAB22C3DA36006394B9 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +86,8 @@
 		25ECAF6722C2C1CC006394B9 = {
 			isa = PBXGroup;
 			children = (
+				25ECAFAA22C3DA36006394B9 /* SettingsViewController.h */,
+				25ECAFAB22C3DA36006394B9 /* SettingsViewController.m */,
 				25ECAF7222C2C1CC006394B9 /* Tipster */,
 				25ECAF8B22C2C1CD006394B9 /* TipsterTests */,
 				25ECAF9622C2C1CD006394B9 /* TipsterUITests */,
@@ -111,8 +113,6 @@
 				25ECAF7622C2C1CC006394B9 /* ViewController.h */,
 				25ECAF7722C2C1CC006394B9 /* ViewController.m */,
 				25ECAF7922C2C1CC006394B9 /* Main.storyboard */,
-				25ECAFA722C2F965006394B9 /* SettingsViewController.h */,
-				25ECAFA822C2F965006394B9 /* SettingsViewController.m */,
 				25ECAF7C22C2C1CD006394B9 /* Assets.xcassets */,
 				25ECAFA522C2F428006394B9 /* iconmonstr-calculator-4-240 (1).png */,
 				25ECAF7E22C2C1CD006394B9 /* LaunchScreen.storyboard */,
@@ -274,7 +274,7 @@
 				25ECAF7822C2C1CC006394B9 /* ViewController.m in Sources */,
 				25ECAF8322C2C1CD006394B9 /* main.m in Sources */,
 				25ECAF7522C2C1CC006394B9 /* AppDelegate.m in Sources */,
-				25ECAFA922C2F965006394B9 /* SettingsViewController.m in Sources */,
+				25ECAFAC22C3DA36006394B9 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
